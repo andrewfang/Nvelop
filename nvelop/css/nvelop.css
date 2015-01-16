@@ -1,0 +1,92 @@
+/*
+The MIT License (MIT)
+
+Copyright (c) 2015 Andrew Fang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/*NAVIGATION*/
+.navbutton {
+	background-color:#fff;
+  border-radius:42px;
+  -moz-border-radius:42px;
+  -webkit-border-radius:42px;
+  display:inline-block;
+  cursor:pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#9c9c9c
+  font-size:17px;
+  padding:10px 25px;
+}
+.navbutton:hover {
+	background-color:#e0e0e0;
+	color: #000000;
+  text-decoration: none;
+}
+.navbutton:active {
+	position:relative;
+	top:1px;
+}
+
+a.disabled {
+	background-color:#dfdfdf;
+	color: #000000;
+	cursor: default;
+  text-decoration: none;
+}
+a.disabled:hover {
+	background-color:#dfdfdf;
+	color: #000000;
+	cursor: default;
+  text-decoration: none;
+}
+a.disabled:active {
+	background-color:#dfdfdf;
+	color: #000000;
+  text-decoration: none;
+}
+#nav{
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*BLOCK CLASSES*/
+.page {
+	position: relative;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 45px;
+	width: 100%;
+  background: #fff;
+}
+
+/*TITLEBLOCK*/
+#titleblock{
+	height: 350px;
+	position: relative;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 100px;
+	width: 100%;
+}
+body {
+  background: #0266C8;
+}

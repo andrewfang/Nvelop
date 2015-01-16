@@ -1,0 +1,135 @@
+<html>
+    <head>
+		  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	    <link rel="stylesheet" href="nvelop/css/nvelop.css"/>
+      <link rel=icon" href="NvelopLogo.png" >
+    	<script type="text/javascript" src="nvelop/js/nvelop.js"></script>
+
+
+	    <link rel="stylesheet" href="style.css"/>
+    	<script type="text/javascript" src="script.js"></script>
+      <title>Nvelop</title>
+      <meta name="author" content="Andrew Fang">
+      <meta charset='utf-8'>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+	</head>
+	<body>
+		<div id="titleblock">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-responsive" id="logo" src="NvelopLogo.png" align="left"/>
+            <h1>Nvelop</h1>
+              <section id="nav">
+                <a href="#home" class="navbutton">Home</a>
+                <a href="#useage" class="navbutton"><span>Useage</span></a>
+                <a href="#about" class="navbutton"><span>About</span></a>
+                <a href="nvelop.zip" class="navbutton" id="download" role="button" download>Download</a>
+              </section>
+            </div>
+          </div>
+        </div>
+		</div>
+
+		<div class="page" id="useage">
+      <div class="container-fluid">
+        <h2>Useage</h2>
+      </div>
+
+      <div class="container">
+        <h3>Dependencies</h3>
+        <div class="content row">
+          <div class="col-md-12">
+            <p>Nvelop has strong dependencies on JQuery and Bootstrap.</p>
+            <p>Please download JQuery <a href="http://jquery.com">here</a> and Bootstrap <a href="http://getbootstrap.com">here</a>.</p>
+            <p>Alternatively, you can include these in the head of your html to reference the latest version of Jquery and Bootstrap</p>
+            <code>
+              &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;&lt;/script&gt;
+            </code><br><br>
+            <code>
+              &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /&gt;
+            </code>
+          </div>
+        </div>
+      </div>
+
+        <div class="container">
+          <h3>Pages</h3>
+          <div class="content row">
+            <div class="col-md-12">
+              <p>Organize each page into a div, and give the div a class named "page". Then, assign each page a unique id. This id will be used to show or hide the page. For best results, nest a div with class="container-fluid" inside the page.</p>
+              <code>&lt;div class="page" id="uniqueId"&gt; Lorem Ipsum &lt;/div&gt;</code>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h3>Navigation</h3>
+          <div class="content row">
+            <div class="col-md-12">
+              <p>For navigation, create a section tag with the id "nav", and put an "a" tag with a class of navbutton, and a href pointing to the id of the page that you want to display</p>
+              <code>
+                &lt;section id="nav"&gt;<br>
+                <span class="indent">&lt;a href="#uniqueId" class="navbutton"&gt;One Page&lt;/a&gt;</span><br>
+                <span class="indent">&lt;a href="#anotherUniqueId" class="navbutton"&gt;Another               Page&lt;/a&gt;</span><br> &lt;/section id="nav"&gt;
+              </code>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h3>Extras</h3>
+          <div class="content row">
+            <div class="col-md-12">
+              <h4>Window-height Page</h4>
+                <p>Use the class "fillScreen" on a div to make that div load with a height equal to the window height.</p>
+              <code>&lt;div class="page fillScreen" id="uniqueId"&gt; Lorem Ipsum &lt;/div&gt;</code>
+
+              <h4>Title Page</h4>
+              <p>Use the class "titleblock" to make a title page that stretches across the width of the screen. This is similar to Bootstrap's "container-fluid" class</p>
+              <code>&lt;div class="titleblock"&gt;Title&lt;/div&gt;</code>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+          <h3>Starter Template</h3>
+          <div class="content row">
+            <div class="col-md-12">
+              <p>Click <a href="NvelopTemplate.html" role="button" download>here</a> to download a starter template.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+		</div>
+
+		<div class="page" id="about">
+      <div class="container-fluid">
+        <h2>About</h2>
+        <div class="row">
+          <div class="col-md-4" align="center">
+            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+            <p class="aboutSubGlyph">Building multi-page websites is time consuming. There's either a lot of repeated work, or we have to use tool that are not supported by some web hosts.</p>
+          </div>
+
+          <div class="col-md-4" align="center">
+            <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+            <p class="aboutSubGlyph">Nvelop was built to solve this problem with a simple to use, lightweight package. In a few lines, the structure of a new website is ready to go.</p>
+          </div>
+
+          <div class="col-md-4" align="center">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            <p class="aboutSubGlyph">This webpage is built with Nvelop. Visit <a href="http://andrewbfang.com">andrewbfang.com</a> to see another example of Nvelop, and check out more work by the author.</p>
+          </div>
+
+
+		</div>
+
+	</body>
+</html>

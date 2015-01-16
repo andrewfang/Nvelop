@@ -1,0 +1,58 @@
+body {
+  background: #607D8B;
+}
+h1 {
+  color: #fff;
+  font-size: 55px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+  font-weight: 300;
+}
+h2 {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+h3 {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+h4 {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+p {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+  font-weight: 300;
+}
+.navbutton {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+  font-weight: 300;
+}
+
+.content {
+  padding-left: 30px;
+}
+code {
+  color: #607D8B;
+  background: #ECEFF1;
+}
+.indent {
+  padding-left: 30px;
+}
+#logo {
+  margin-top: 20px;
+  height: 60px;
+}
+#download {
+  background-color: #455A64;
+  color: #fff;
+}
+#download:hover {
+  background-color: #546E7A;
+}
+.glyphicon {
+  font-size: 70px;
+}
+#aboutContent {
+  margin-top: 20px;
+}
+.aboutSubGlyph {
+  margin-top: 20px;
+  line-height: 25px;
+}
